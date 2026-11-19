@@ -1,0 +1,8 @@
+{
+  "name": "order-investigation-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "node index.js", "test": "node --test" },
+  "engines": { "node": "24.x" },
+  "dependencies": { "express": "^5.1.0" }
+}

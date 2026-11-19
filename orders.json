@@ -1,0 +1,194 @@
+{
+  "ORD-1001": {
+    "order_id": "ORD-1001",
+    "order_status": "shipped",
+    "fulfillment_events": [
+      {
+        "status": "ordered",
+        "timestamp": "2026-10-25T10:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2026-10-27T14:00:00Z"
+      }
+    ],
+    "carrier_tracking": {
+      "carrier": "Delhivery",
+      "tracking_number": "TRACK12345"
+    },
+    "estimated_delivery_date": "2026-11-01",
+    "actual_delivery_date": null,
+    "order_items": [
+      {
+        "item_id": "ITEM-101",
+        "name": "Wireless Headphones",
+        "quantity": 1,
+        "shipment_split": "shipped"
+      }
+    ],
+    "payment_status": "paid",
+    "refund_history": [],
+    "customer_info": {
+      "name": "Demo Customer",
+      "email": "demo@example.com"
+    },
+    "fraud_flags": [],
+    "api_error": null
+  },
+  "ORD-1002": {
+    "order_id": "ORD-1002",
+    "order_status": "delivered",
+    "fulfillment_events": [
+      {
+        "status": "ordered",
+        "timestamp": "2026-10-25T10:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2026-10-27T14:00:00Z"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-10-30T12:00:00Z"
+      }
+    ],
+    "carrier_tracking": {
+      "carrier": "Delhivery",
+      "tracking_number": "TRACK12346"
+    },
+    "estimated_delivery_date": "2026-11-01",
+    "actual_delivery_date": "2026-10-30",
+    "order_items": [
+      {
+        "item_id": "ITEM-101",
+        "name": "Wireless Headphones",
+        "quantity": 1,
+        "shipment_split": "delivered"
+      }
+    ],
+    "payment_status": "paid",
+    "refund_history": [],
+    "customer_info": {
+      "name": "Demo Customer",
+      "email": "demo@example.com"
+    },
+    "fraud_flags": [],
+    "api_error": null
+  },
+  "ORD-1003": {
+    "order_id": "ORD-1003",
+    "order_status": "processing",
+    "fulfillment_events": [
+      {
+        "status": "ordered",
+        "timestamp": "2026-10-25T10:00:00Z"
+      },
+      {
+        "status": "processing",
+        "timestamp": "2026-10-25T10:15:00Z"
+      }
+    ],
+    "carrier_tracking": {
+      "carrier": null,
+      "tracking_number": null
+    },
+    "estimated_delivery_date": "2026-11-07",
+    "actual_delivery_date": null,
+    "order_items": [
+      {
+        "item_id": "ITEM-101",
+        "name": "Wireless Headphones",
+        "quantity": 1,
+        "shipment_split": "unfulfilled"
+      }
+    ],
+    "payment_status": "paid",
+    "refund_history": [],
+    "customer_info": {
+      "name": "Demo Customer",
+      "email": "demo@example.com"
+    },
+    "fraud_flags": [],
+    "api_error": null
+  },
+  "ORD-1004": {
+    "order_id": "ORD-1004",
+    "order_status": "delivered",
+    "fulfillment_events": [
+      {
+        "status": "ordered",
+        "timestamp": "2026-10-25T10:00:00Z"
+      },
+      {
+        "status": "shipped",
+        "timestamp": "2026-10-27T14:00:00Z"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-10-30T12:00:00Z"
+      }
+    ],
+    "carrier_tracking": {
+      "carrier": "Delhivery",
+      "tracking_number": "TRACK12348"
+    },
+    "estimated_delivery_date": "2026-11-01",
+    "actual_delivery_date": "2026-10-30",
+    "order_items": [
+      {
+        "item_id": "ITEM-101",
+        "name": "Wireless Headphones",
+        "quantity": 1,
+        "shipment_split": "delivered"
+      },
+      {
+        "item_id": "ITEM-102",
+        "name": "USB-C Charging Cable",
+        "quantity": 2,
+        "shipment_split": "partially_fulfilled",
+        "fulfilled_quantity": 1,
+        "missing_quantity": 1
+      }
+    ],
+    "payment_status": "paid",
+    "refund_history": [],
+    "customer_info": {
+      "name": "Demo Customer",
+      "email": "demo@example.com"
+    },
+    "fraud_flags": [],
+    "api_error": null
+  },
+  "ORD-1005": {
+    "order_id": "ORD-1005",
+    "order_status": "pending",
+    "fulfillment_events": [
+      {
+        "status": "ordered",
+        "timestamp": "2026-10-25T10:00:00Z"
+      }
+    ],
+    "carrier_tracking": {
+      "carrier": null,
+      "tracking_number": null
+    },
+    "estimated_delivery_date": "2026-11-07",
+    "actual_delivery_date": null,
+    "order_items": [
+      {
+        "item_id": "ITEM-101",
+        "name": "Wireless Headphones",
+        "quantity": 1,
+        "shipment_split": "unfulfilled"
+      }
+    ],
+    "payment_status": "paid",
+    "refund_history": [],
+    "customer_info": {
+      "name": "Demo Customer",
+      "email": "demo@example.com"
+    },
+    "fraud_flags": [],
+    "api_error": null
+  }
+}
